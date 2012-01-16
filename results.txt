@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.1.8-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@679e5e1 (2012-01-12 19:54:15 -0800 | Joe Groff) language-reference: update expr and pattern BNF
+version: jckarter/clay@b1bd287 (2012-01-16 09:16:02 -0800 | Joe Groff) primitives-reference: proofread
 repository: https://github.com/jckarter/clay
 
 [TargetPlatform]
@@ -289,4 +289,4 @@ Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 52.959200
+time-taken-seconds: 114.375786
