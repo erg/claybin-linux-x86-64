@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.1-2-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@9267976c7b00916509b785a76f1cf98b3fd712b2 (2012-01-25 13:33:46 -0800)
+version: jckarter/clay@6760911263aec233f5c6dd818e5a7baf196b63b6 (2012-01-25 14:47:00 -0800)
 repository: https://github.com/jckarter/clay
 
 [TargetPlatform]
@@ -10,7 +10,6 @@ bits: 64
 
 [Tests]
 characters/1: ok
-math/1: ok
 math/approx2: disabled
 math/native: disabled
 math/native/x86_Float80: disabled
@@ -18,6 +17,8 @@ math/complex: disabled
 math/complex/x86_Complex80: disabled
 math/libm: disabled
 math/fast: disabled
+math/pow: ok
+math/sqrt: ok
 math/approx: disabled
 eval/statements: ok
 eval/expr: ok
@@ -286,9 +287,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 262
+Passed: 263
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 121.239778
+time-taken-seconds: 107.536924
