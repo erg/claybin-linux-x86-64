@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.1-2-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@0595715680758fde6aa020e204d753542c4eed8c (2012-01-26 09:19:15 -0800)
+version: jckarter/clay@1df7c4b129a05d5e174195c3a607d4834417a38a (2012-01-29 14:11:15 -0800)
 repository: https://github.com/jckarter/clay
 
 [TargetPlatform]
@@ -210,6 +210,7 @@ lambdas/alias/1: disabled
 lambdas/alias/2: disabled
 lambdas/alias/3: disabled
 lambdas/dynamic: ok
+lambdas/dynamic/makelambda: ok
 lambdas/vararg: ok
 lambdas/basic: ok
 lambdas/stateless: ok
@@ -245,6 +246,9 @@ hashmaps: ok
 hashmaps/rvalueiteration: ok
 hashmaps/valueinitialization: ok
 numbers/overflow: ok
+numbers/conversion: ok
+numbers/literals/toolarge: ok
+numbers/literals/toolarge2: ok
 numbers/parser/1: ok
 numbers/parser/4: ok
 numbers/parser/2: ok
@@ -287,9 +291,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 263
+Passed: 267
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 121.581759
+time-taken-seconds: 112.752795
