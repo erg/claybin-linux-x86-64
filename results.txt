@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.2-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@6e13b4b53d26e3b7f51ef8b7c2c04110e5dab479 (2012-02-02 18:26:14 -0800)
+version: jckarter/clay@bc6617a0a1d58e313a8d3aee31927f36a0a4eb7e (2012-02-03 14:20:38 -0800)
 repository: https://github.com/jckarter/clay
 
 [TargetPlatform]
@@ -206,6 +206,7 @@ globalvariables/predicates/2: ok
 random: ok
 lambdas/callsugar: ok
 lambdas/argsyntax: ok
+lambdas/calloutputtypes: ok
 lambdas/alias/1: disabled
 lambdas/alias/2: disabled
 lambdas/alias/3: disabled
@@ -291,9 +292,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 267
+Passed: 268
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 110.017919
+time-taken-seconds: 121.864642
