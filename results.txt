@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.2.4-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@fea3845b6ef03c869ea5c57cb49d81ec424c1b32 (2012-02-06 19:43:47 -0800)
+platform: Linux-3.2.5-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
+version: jckarter/clay@fa880c4fdea7135a78d62246324fb336e8d9b82c (2012-02-12 13:30:25 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Sat Feb 4 10:53:01 CET 2012
-release: 3.2.4-1-ARCH
+version: #1 SMP PREEMPT Tue Feb 7 08:34:36 CET 2012
+release: 3.2.5-1-ARCH
 processor: Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz
 
 [TargetPlatform]
@@ -96,6 +96,7 @@ libc/setjmplongjmp: ok
 variants/1: ok
 variants/5: ok
 variants/nested: ok
+variants/initialization: ok
 variants/match: ok
 variants/recursive: ok
 variants/equality: ok
@@ -103,6 +104,7 @@ variants/maybe: ok
 variants/predicates: ok
 variants/subgraphassignment: ok
 variants/empty: ok
+variants/variantref: ok
 variants/4: ok
 variants/2: ok
 variants/3: ok
@@ -117,6 +119,7 @@ memory/copy: ok
 memory/zeroObject: ok
 patterns: ok
 bindings/ref/1: ok
+records/initialization: ok
 records/predicates: ok
 sequences/arrayassignment: ok
 sequences/1: ok
@@ -157,6 +160,8 @@ strings: ok
 strings/encodings/utf8: ok
 strings/triplequoting: ok
 externals: ok
+externals/ccast: ok
+externals/makeexternalcodepointer: ok
 externals/recursiveccodepointer: ok
 externals/recursivecodepointer: ok
 externals/abi/x86_sse: ok
@@ -237,6 +242,7 @@ fileio/29: ok
 fileio/28: ok
 fileio/27: ok
 enums/predicates: ok
+getoverload: ok
 time: ok
 commandline/1: ok
 commandline/options: ok
@@ -302,9 +308,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 271
+Passed: 277
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 111.515541
+time-taken-seconds: 146.923552
