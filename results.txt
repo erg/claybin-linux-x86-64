@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.5-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@e240dbaea37a868c90a22456f85f4ce2588205e6 (2012-02-18 16:43:44 -0800)
+version: jckarter/clay@efb2400aedb4aed30a709bd225a24b066def5ace (2012-02-19 09:00:56 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -138,6 +138,7 @@ sequences/2: ok
 sequences/3: ok
 sequences/7: ok
 sequences/force: ok
+sequences/concatenation: ok
 any: ok
 globalalias/1: ok
 globalalias/predicates/1: ok
@@ -308,9 +309,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 277
+Passed: 278
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 146.330923
+time-taken-seconds: 144.213196
