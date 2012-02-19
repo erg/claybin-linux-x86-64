@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.2.5-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@efb2400aedb4aed30a709bd225a24b066def5ace (2012-02-19 09:00:56 -0800)
+platform: Linux-3.2.6-2-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
+version: jckarter/clay@1998b493879602bd6815c08a914d87e7b327ab13 (2012-02-19 13:49:37 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Tue Feb 7 08:34:36 CET 2012
-release: 3.2.5-1-ARCH
+version: #1 SMP PREEMPT Thu Feb 16 10:10:02 CET 2012
+release: 3.2.6-2-ARCH
 processor: Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz
 
 [TargetPlatform]
@@ -314,4 +314,4 @@ Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 144.213196
+time-taken-seconds: 145.961279
