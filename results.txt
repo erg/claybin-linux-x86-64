@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.6-2-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@1998b493879602bd6815c08a914d87e7b327ab13 (2012-02-19 13:49:37 -0800)
+version: jckarter/clay@a8639522d4bff5cc1d1289feceb7f99dc0e4edee (2012-02-20 16:01:27 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -265,6 +265,7 @@ hashmaps/rvalueiteration: ok
 hashmaps/valueinitialization: ok
 numbers/overflow: ok
 numbers/conversion: ok
+numbers/quotient: ok
 numbers/literals/toolarge: ok
 numbers/literals/toolarge2: ok
 numbers/parser/1: ok
@@ -294,7 +295,7 @@ io/sockets/connections: ok
 io/sockets/reading: ok
 io/sockets/addresses: ok
 io/sockets/valuesemantics: ok
-shootout/mean: ok
+shootout/mean: compiler error
 shootout/quicksort2: ok
 shootout/insertionsort1: ok
 shootout/insertionsort2: ok
@@ -308,10 +309,14 @@ overloads/patterncallable: ok
 valuesemantics: ok
 coordinates: ok
 
+[Failed]
+shootout/mean: compiler error
+
 [Summary]
 Passed: 278
 Disabled: 13
+Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 145.961279
+time-taken-seconds: 122.237725
