@@ -4,55 +4,29 @@ Failure: compiler error
 Error:
  
  ###############################
- [F]
- inline overload updateAssign(static F, ref dest, forward src) {
-     dest = F(dest, src);
- ------------^
- }
- 
+ test() {
+     var result = 0.;
+     for (i in range(100000.)) {
+ -------------------^
+         result = 0.;
+         for (j in range(10000.))
  ###############################
- /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/operators/operators.clay(237,12): error: no matching overload found
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/complex/complex.clay(293,0)
-         predicate "Imaginary?(T) and Complex?(C)" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/complex/complex.clay(270,0)
-         predicate "Float?(T) and Complex?(C)" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/complex/complex.clay(264,0)
-         predicate "Float?(T) and Complex?(C)" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/complex/complex.clay(211,0)
-         predicate "Complex?(T,U)" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/simd/simd.clay(142,0)
-         pattern "Vec[T,n]" did not match type "Int32" of argument 2
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/simd/simd.clay(139,0)
-         pattern "Vec[T,n]" did not match type "Float64" of argument 1
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/simd/simd.clay(136,0)
-         pattern "Vec[T,n]" did not match type "Float64" of argument 1
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/math/native/bigfloat.clay(611,0)
-         pattern "T" did not match type "Int32" of argument 2
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/numbers/numbers.clay(338,0)
-         pattern "A" did not match type "Int32" of argument 2
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/numbers/numbers.clay(335,0)
-         predicate "Numeric?(B) and Imaginary?(A)" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/numbers/numbers.clay(332,0)
-         predicate "Numeric?(A) and Imaginary?(B)" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/numbers/numbers.clay(309,0)
-         predicate "countValues(..AA) != 1" failed
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/numbers/numbers.clay(277,0)
-         pattern "A" did not match type "Int32" of argument 2
-     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/numbers/numbers.clay(272,0)
-         predicate "Float?(A,B)" failed
+ /home/erg/clay-autobuild/test/shootout/mean/main.clay(4,19): error: no matching overload found
+     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/sequences/lazy/range/range.clay(102,0)
+         predicate "Integer?(I)" failed
+     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/sequences/lazy/range/range.clay(99,0)
+         incorrect number of arguments: expected 2 arguments, got 1 arguments
+     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/sequences/lazy/range/range.clay(94,0)
+         incorrect number of arguments: expected 2 arguments, got 1 arguments
+     /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/sequences/lazy/range/range.clay(92,0)
+         incorrect number of arguments: expected 2 arguments, got 1 arguments
      90 universal overloads not shown (show with -full-match-errors option)
  
  compilation context: 
-     divide(Float64, Int32)
-   /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/operators/operators.clay(237,12):
-     updateAssign(Static[divide], Float64, Int32)
-   /home/erg/clay-autobuild/test/shootout/mean/main.clay(9,4):
+     range(Float64)
+   /home/erg/clay-autobuild/test/shootout/mean/main.clay(4,19):
      test()
    /home/erg/clay-autobuild/test/shootout/mean/main.clay(14,19):
-     Int32(Float64)
-   /home/erg/clay-autobuild/test/shootout/mean/main.clay(14,14):
      main()
    /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/system/system.clay(32,33):
-     getExitCode(Int32)
-   /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/system/system.clay(32,26):
      callMain(Static[main], Int32, Pointer[Pointer[Int8]])

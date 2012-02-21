@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.6-2-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@a8639522d4bff5cc1d1289feceb7f99dc0e4edee (2012-02-20 16:01:27 -0800)
+version: jckarter/clay@0bfa0c182eb215efa5ebdf9c24e9931728be64f3 (2012-02-20 16:32:59 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -319,4 +319,4 @@ Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 122.237725
+time-taken-seconds: 122.724762
