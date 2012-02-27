@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.2.6-2-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@70ece4fb378a6af642c7f7461a6eb52a82fcce9e (2012-02-22 11:41:18 -0800)
+platform: Linux-3.2.7-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
+version: jckarter/clay@a538603ebc9c7f1264de26b23f4d601c786df2c3 (2012-02-26 16:29:16 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Thu Feb 16 10:10:02 CET 2012
-release: 3.2.6-2-ARCH
+version: #1 SMP PREEMPT Tue Feb 21 09:51:29 CET 2012
+release: 3.2.7-1-ARCH
 processor: Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz
 
 [TargetPlatform]
@@ -98,7 +98,8 @@ variants/5: ok
 variants/nested: ok
 variants/initialization: ok
 variants/match: ok
-variants/recursive: ok
+variants/recursive/1: ok
+variants/recursive/2: ok
 variants/equality: ok
 variants/maybe: ok
 variants/predicates: ok
@@ -311,9 +312,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 280
+Passed: 281
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 144.619388
+time-taken-seconds: 149.641999
