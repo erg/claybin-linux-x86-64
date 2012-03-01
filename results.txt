@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.2.7-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@f8018306f9c6a6405ef3afcd8458cceaa7be4163 (2012-02-27 16:38:33 -0800)
+platform: Linux-3.2.8-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
+version: jckarter/clay@8818ee5de20aa03f1e4a7201b71458f15e6e8283 (2012-02-29 15:53:55 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Tue Feb 21 09:51:29 CET 2012
-release: 3.2.7-1-ARCH
+version: #1 SMP PREEMPT Mon Feb 27 21:51:46 CET 2012
+release: 3.2.8-1-ARCH
 processor: Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz
 
 [TargetPlatform]
@@ -175,6 +175,7 @@ byteorder: ok
 sha2: ok
 printing/1: ok
 printing/repr: ok
+printing/nan: ok
 printing/int128: ok
 printing/2: ok
 printing/observe: ok
@@ -313,9 +314,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 282
+Passed: 283
 Disabled: 13
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 157.677110
+time-taken-seconds: 160.797578
