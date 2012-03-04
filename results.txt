@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.8-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@e204b7fa6b73cd3f1ad806d2a33c83e0f2943ee8 (2012-03-03 13:05:42 -0800)
+version: jckarter/clay@2248d1d725e5910d370975c473e4180491f8f718 (2012-03-03 17:21:51 -0800)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -235,8 +235,10 @@ hash/variants: ok
 hash/scalars: ok
 simd: ok
 simd/invalidtypes: ok
+pointers/indexing/1: ok
 referencetypes: ok
 dispatch: ok
+arrays/indexing/1: ok
 fileio/29: ok
 fileio/28: ok
 fileio/27: ok
@@ -308,9 +310,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 285
+Passed: 287
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 158.668762
+time-taken-seconds: 159.897135
