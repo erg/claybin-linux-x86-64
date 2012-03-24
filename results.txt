@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.11-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@86f2d53da5eda2f5452def272e0c2d6e8cd85dbf (2012-03-22 11:38:25 -0700)
+version: jckarter/clay@747adac4757229b55ae5ddc00d9eb8daff81cb47 (2012-03-24 15:50:11 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -25,8 +25,6 @@ eval/statements: ok
 eval/expr: ok
 uniquepointers: ok
 uniquepointers/uniquevalues: ok
-identifiers: ok
-identifiers/ident: ok
 exceptions/onerror: ok
 exceptions/1: ok
 exceptions/custom: ok
@@ -155,6 +153,8 @@ queues: ok
 strings: ok
 strings/encodings/utf8: ok
 strings/triplequoting: ok
+stringliterals: ok
+stringliterals/strl: ok
 externals: ok
 externals/ccast: ok
 externals/makeexternalcodepointer: ok
@@ -317,4 +317,4 @@ Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 288.521381
+time-taken-seconds: 283.464414
