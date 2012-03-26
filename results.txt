@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.11-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@094b9047cb082555364ab5b55aefd0a59c14e93b (2012-03-25 11:13:14 -0700)
+version: jckarter/clay@45ed2aedf3509c9098ba39e508a42b5b654b3bab (2012-03-25 20:13:15 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -233,6 +233,10 @@ lambdas/papply: ok
 lambdas/calldefined: ok
 remote/marshaling: ok
 remote/messages/simple: ok
+statementexpressions/if/1: ok
+statementexpressions/if/2: ok
+statementexpressions/while/1: ok
+statementexpressions/while/2: ok
 hash/variants: ok
 hash/scalars: ok
 simd: ok
@@ -312,9 +316,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 289
+Passed: 293
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 188.245543
+time-taken-seconds: 191.759234
