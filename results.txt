@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.13-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@60d5971bd1cc044a24a811384212a6f8ae77373c (2012-03-29 10:23:47 -0700)
+version: jckarter/clay@875ae2fb82437ffc920ad73974c34b04e33dab38 (2012-03-29 10:46:49 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -205,7 +205,6 @@ operators/proxyassignment: ok
 operators/extendedassignment2: ok
 operators/pod: ok
 operators/pod/initializers: ok
-operators/defined: ok
 operators/comparison: ok
 operators/precedence: ok
 operators/extendedassignment: ok
@@ -318,9 +317,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 295
+Passed: 294
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 174.208661
+time-taken-seconds: 176.534156
