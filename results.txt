@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.13-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@dc712723ce7fb422a25c8e193381fa00df35e3ba (2012-04-01 14:52:38 -0600)
+version: jckarter/clay@ce18b0cc8b3f5f98655c4f4d0ca479e44af11e90 (2012-04-01 16:51:40 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -199,6 +199,7 @@ codepointers/32: ok
 codepointers/2: ok
 codepointers/3: ok
 codepointers/31: ok
+operators/custom2: ok
 operators/custom: ok
 operators/bitwise: ok
 operators/proxyassignment: ok
@@ -317,9 +318,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 294
+Passed: 295
 Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 175.460846
+time-taken-seconds: 162.623169
