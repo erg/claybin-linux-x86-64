@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.14-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@15d1ea123e26a73221f6adbbc7eea1f96cc6a022 (2012-04-09 15:27:59 -0700)
+version: jckarter/clay@de9463c66af50a6c98ca71a5a4be579ff6b3da81 (2012-04-09 15:57:40 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -323,4 +323,4 @@ Disabled: 5
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 163.225962
+time-taken-seconds: 142.980078
