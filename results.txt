@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.2.14-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@94b3db28daddbdfe6e3e979cf888d69835831d7a (2012-04-10 09:46:06 -0700)
+version: jckarter/clay@6acfb9fd314930e37ffbf73467d418241fe56138 (2012-04-10 16:00:22 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -180,7 +180,7 @@ paged/36: ok
 paged/37: ok
 paged/35: ok
 paged/38: ok
-deques: disabled
+deques: ok
 deques/memory: ok
 keywordarguments: ok
 destructors: ok
@@ -318,9 +318,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 295
-Disabled: 5
+Passed: 296
+Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 168.132703
+time-taken-seconds: 122.934688
