@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.2.14-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
-version: jckarter/clay@e589c25552d3787a90f22f7c07961bba64ba1c76 (2012-04-10 22:41:24 -0700)
+platform: Linux-3.3.1-1-ARCH-x86_64-Intel-R-_Core-TM-_i7-3960X_CPU_@_3.30GHz-with-glibc2.2.5
+version: jckarter/clay@bdafb1ea53ad21ab6762906578a8739d30350a76 (2012-04-11 13:41:58 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Tue Apr 3 17:07:25 UTC 2012
-release: 3.2.14-1-ARCH
+version: #1 SMP PREEMPT Tue Apr 3 06:46:17 UTC 2012
+release: 3.3.1-1-ARCH
 processor: Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz
 
 [TargetPlatform]
@@ -301,7 +301,7 @@ defaultarguments: ok
 io/paths: ok
 io/sockets/connections: ok
 io/sockets/reading: ok
-io/sockets/addresses: compiler error
+io/sockets/addresses: ok
 io/sockets/valuesemantics: ok
 shootout/mean: ok
 shootout/quicksort2: ok
@@ -317,14 +317,10 @@ overloads/patterncallable: ok
 valuesemantics: ok
 coordinates: ok
 
-[Failed]
-io/sockets/addresses: compiler error
-
 [Summary]
-Passed: 295
+Passed: 296
 Disabled: 4
-Failed: 1
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 102.868530
+time-taken-seconds: 109.954979
