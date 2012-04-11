@@ -1,0 +1,17 @@
+
+[io/sockets/addresses]
+Failure: compiler error
+Error:
+ 
+ ###############################
+ import libc.(memset);
+ 
+ private alias platform = io.sockets.platform;
+ ------------------------------------^
+ 
+ 
+ ###############################
+ /home/erg/clay-autobuild/build/compiler/src/../../../lib-clay/io/sockets/sockets.clay(22,36: error: undefined name: platform
+ 
+ compilation context: 
+     StreamSocket
