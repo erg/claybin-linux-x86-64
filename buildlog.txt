@@ -1,7 +1,7 @@
-[  4%] [  8%] [ 12%] [ 16%] [ 25%] [ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
+[  4%] [  8%] [ 12%] [ 16%] [ 20%] [ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
+Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.o
-Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
 [ 29%] Building CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.o
@@ -13,8 +13,8 @@ Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
 [ 54%] Building CXX object compiler/src/CMakeFiles/clay.dir/lexer.cpp.o
 [ 58%] Building CXX object compiler/src/CMakeFiles/clay.dir/literals.cpp.o
 [ 62%] Building CXX object compiler/src/CMakeFiles/clay.dir/loader.cpp.o
-[ 66%] Building CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.o
-[ 70%] Building CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.o
+[ 66%] [ 70%] Building CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.o
+Building CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.o
 [ 75%] Building CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.o
 [ 79%] Building CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.o
 [ 83%] Building CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.o
