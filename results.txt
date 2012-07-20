@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.4.4-2-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@dce3a446cbddc1f84a214f037a1923dcc52dccb9 (2012-06-30 18:33:12 -0700)
+platform: Linux-3.4.5-1-ARCH-x86_64-with-glibc2.2.5
+version: jckarter/clay@e1bb3ab65328e5a8aa61c7a15e598cf13afbdab3 (2012-07-19 18:31:14 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Sun Jun 24 18:59:47 CEST 2012
-release: 3.4.4-2-ARCH
+version: #1 SMP PREEMPT Mon Jul 16 21:35:54 CEST 2012
+release: 3.4.5-1-ARCH
 processor: 
 
 [TargetPlatform]
@@ -326,4 +326,4 @@ Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 335.066427
+time-taken-seconds: 199.294731
