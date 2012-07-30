@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.5-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@89c873567d986bf12cba9f498de3ba8a01325272 (2012-07-21 16:51:14 -0700)
+version: jckarter/clay@b9601a7e1bc8c0a818bbe44245274a783ec19edb (2012-07-29 10:42:09 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -287,6 +287,7 @@ numbers/parser/float80: ok
 numbers/parser/3: ok
 numbers/octal: ok
 parsing: ok
+parsing/combinators/generic: ok
 parsing/calculator: ok
 callbyname/arg: ok
 callbyname/fileLineColumn: ok
@@ -322,9 +323,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 300
+Passed: 301
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 184.577616
+time-taken-seconds: 185.605178
