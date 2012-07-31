@@ -1,12 +1,8 @@
--- Found Git: /usr/bin/git (found version "1.7.11.3") 
--- Configuring done
--- Generating done
--- Build files have been written to: /home/erg/clay-autobuild/build
-[  4%] [  8%] [ 12%] [ 16%] [ 25%] [ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
-Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
+[  4%] [ 12%] [ 12%] [ 20%] [ 20%] [ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
-Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.o
+Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
+Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
 [ 29%] Building CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.o
 [ 33%] Building CXX object compiler/src/CMakeFiles/clay.dir/evaluator.cpp.o
@@ -20,8 +16,8 @@ Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
 [ 66%] Building CXX object compiler/src/CMakeFiles/clay.dir/main.cpp.o
 [ 70%] Building CXX object compiler/src/CMakeFiles/clay.dir/matchinvoke.cpp.o
 [ 75%] Building CXX object compiler/src/CMakeFiles/clay.dir/objects.cpp.o
-[ 79%] [ 83%] Building CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.o
-Building CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.o
+[ 79%] Building CXX object compiler/src/CMakeFiles/clay.dir/parachute.cpp.o
+[ 83%] Building CXX object compiler/src/CMakeFiles/clay.dir/parser.cpp.o
 [ 87%] Building CXX object compiler/src/CMakeFiles/clay.dir/patterns.cpp.o
 [ 91%] Building CXX object compiler/src/CMakeFiles/clay.dir/printer.cpp.o
 [ 95%] Building CXX object compiler/src/CMakeFiles/clay.dir/profiler.cpp.o
