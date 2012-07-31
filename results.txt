@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.5-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@da8d013f25660d50230e03981b95cc5ed942d103 (2012-07-31 09:14:33 -0700)
+version: jckarter/clay@2695e214ca575cc91e05e87578bbc7aa3cff2aaa (2012-07-31 10:23:15 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -37,6 +37,9 @@ exceptions/catch: ok
 exceptions/finally: ok
 exceptions/finally/goto: ok
 interfaces: ok
+interfaces/constructors/1: ok
+interfaces/constructors/2: ok
+interfaces/constructors/3: ok
 interfaces/outputmismatch/1: ok
 interfaces/outputmismatch/2: ok
 uncategorized/15: ok
@@ -325,9 +328,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 303
+Passed: 306
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 241.915470
+time-taken-seconds: 237.293250
