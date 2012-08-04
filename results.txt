@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.5-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@05373aa22f3394dff34df64622a4345d4a7736be (2012-08-04 14:24:02 -0700)
+version: jckarter/clay@2ea425b9e6b8c3e2d7dd3fedd293cadc7cd5675b (2012-08-04 14:46:23 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -333,4 +333,4 @@ Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 210.642918
+time-taken-seconds: 220.047569
