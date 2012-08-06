@@ -1,13 +1,13 @@
 [System]
-platform: Linux-3.4.5-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@2ea425b9e6b8c3e2d7dd3fedd293cadc7cd5675b (2012-08-04 14:46:23 -0700)
+platform: Linux-3.4.7-1-ARCH-x86_64-with-glibc2.2.5
+version: jckarter/clay@ec0c7154ca28c87fd50921d43d8de32e41e479de (2012-08-06 10:20:19 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
 system: Linux
 machine: x86_64
-version: #1 SMP PREEMPT Mon Jul 16 21:35:54 CEST 2012
-release: 3.4.5-1-ARCH
+version: #1 SMP PREEMPT Sun Jul 29 22:02:56 CEST 2012
+release: 3.4.7-1-ARCH
 processor: 
 
 [TargetPlatform]
@@ -178,7 +178,6 @@ printing/1: ok
 printing/repr: ok
 printing/nan: ok
 printing/int128: ok
-printing/2: ok
 printing/observe: ok
 printing/formatting: ok
 atomic/primitives: ok
@@ -328,9 +327,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 306
+Passed: 305
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 220.047569
+time-taken-seconds: 271.839914
