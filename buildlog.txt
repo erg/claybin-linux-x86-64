@@ -1,8 +1,8 @@
-[  8%] [  8%] [ 12%] [ 16%] [ 20%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
+[  4%] [  8%] [ 12%] [ 16%] [ 20%] [ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/clone.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/analyzer.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/codegen.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/constructors.cpp.o
-[ 25%] Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
+Building CXX object compiler/src/CMakeFiles/clay.dir/desugar.cpp.o
 Building CXX object compiler/src/CMakeFiles/clay.dir/env.cpp.o
 [ 29%] Building CXX object compiler/src/CMakeFiles/clay.dir/error.cpp.o
 [ 33%] Building CXX object compiler/src/CMakeFiles/clay.dir/evaluator.cpp.o
