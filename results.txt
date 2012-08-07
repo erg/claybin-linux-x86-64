@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.7-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@90dc4af93dcedc46b50ad836ddef81ad796ff7e3 (2012-08-07 09:23:06 -0700)
+version: jckarter/clay@c844418a3f12d2240267e05c8a33ed987c4583dd (2012-08-07 16:40:11 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -175,7 +175,6 @@ externals/abi/complex: ok
 externals/abi/x86_float80: ok
 privateimports: ok
 byteorder: ok
-sha2: ok
 printing/1: ok
 printing/repr: ok
 printing/nan: ok
@@ -221,6 +220,7 @@ operators/extendedassignment: ok
 operators/extendedassignment/butnottooextended1: ok
 operators/extendedassignment/butnottooextended2: ok
 permissive: ok
+crypto/digest/sha2: ok
 evaluator/1: ok
 globalvariables/ctorsdtors: ok
 globalvariables/predicates/1: ok
@@ -334,4 +334,4 @@ Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 249.183023
+time-taken-seconds: 215.018025
