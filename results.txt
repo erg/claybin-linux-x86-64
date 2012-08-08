@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.7-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@c844418a3f12d2240267e05c8a33ed987c4583dd (2012-08-07 16:40:11 -0700)
+version: jckarter/clay@d123587f64d397a140b0d0c72676b65d0a55f3fc (2012-08-08 07:37:12 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -256,6 +256,7 @@ simd/optimizationbug1: ok
 pointers/indexing/1: ok
 referencetypes: ok
 dispatch: ok
+arrays: ok
 arrays/indexing/1: ok
 fileio/29: ok
 fileio/28: ok
@@ -329,9 +330,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 307
+Passed: 308
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 215.018025
+time-taken-seconds: 224.098303
