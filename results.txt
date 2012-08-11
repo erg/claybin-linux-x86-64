@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.7-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@6c6666d5f4783c9efb4bc2a7d30e8f9dfe352d4d (2012-08-11 07:20:01 -0700)
+version: jckarter/clay@0cb24bee53eb566983366c164bc78a30eff9b563 (2012-08-11 10:34:54 -0400)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -220,6 +220,7 @@ operators/extendedassignment: ok
 operators/extendedassignment/butnottooextended1: ok
 operators/extendedassignment/butnottooextended2: ok
 permissive: ok
+crypto/digest/md5: ok
 crypto/digest/sha2: ok
 evaluator/1: ok
 globalvariables/ctorsdtors: ok
@@ -332,9 +333,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 310
+Passed: 311
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 238.345808
+time-taken-seconds: 238.072437
