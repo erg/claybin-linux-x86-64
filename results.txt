@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.7-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@0cb24bee53eb566983366c164bc78a30eff9b563 (2012-08-11 10:34:54 -0400)
+version: jckarter/clay@74641fd5c5a17dbf30cc0afe36743ec10ffd67fc (2012-08-13 08:04:42 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -115,6 +115,7 @@ memory/copy: ok
 memory/zeroObject: ok
 patterns: ok
 bindings/ref/1: ok
+bindings/variadic: ok
 records/initialization: ok
 records/predicates: ok
 sequences/arrayassignment: ok
@@ -333,9 +334,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 311
+Passed: 312
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 238.072437
+time-taken-seconds: 245.337297
