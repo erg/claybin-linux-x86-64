@@ -1,6 +1,6 @@
 [System]
 platform: Linux-3.4.7-1-ARCH-x86_64-with-glibc2.2.5
-version: jckarter/clay@74641fd5c5a17dbf30cc0afe36743ec10ffd67fc (2012-08-13 08:04:42 -0700)
+version: jckarter/clay@15d8fa0f8d103cb764ca869b8d383d45069e7ea5 (2012-08-13 08:13:18 -0700)
 repository: https://github.com/jckarter/clay
 
 [SystemUname]
@@ -319,6 +319,7 @@ io/sockets/connections: ok
 io/sockets/reading: ok
 io/sockets/addresses: ok
 io/sockets/valuesemantics: ok
+io/directories: ok
 shootout/mean: ok
 shootout/quicksort2: ok
 shootout/insertionsort1: ok
@@ -334,9 +335,9 @@ valuesemantics: ok
 coordinates: ok
 
 [Summary]
-Passed: 312
+Passed: 313
 Disabled: 4
 
 # Test log written to testlog.txt
 
-time-taken-seconds: 245.337297
+time-taken-seconds: 247.253462
